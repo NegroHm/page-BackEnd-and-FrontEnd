@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muebles Medina</title>
+</head>
+<body>
+    <h1>Agregar</h1>
+    <button type="submit"><a href="../index.html">Inicio</a></button>
+    <button type="submit"><a href="pagadmin.php">Lista</a></button>
+    
+    <h2>Agregar producto</h2>
+    <p>Ingrese los datos</p>
+
+
+    <form method="POST" action="agregar.php" enctype="multipart/form-data">
+        <label>Tipo de producto</label>
+        <input type="text" name="tipo_de_producto" placeholder="Tipo de prenda" required>
+        <label>Nombre</label>
+        <input type="text" name="nombre" placeholder="Marca" required>
+        <label>Precio</label>
+        <input type="text" name="precio" placeholder="Precio" required>
+        <label>Imagen</label>
+        <input type="file" name="imagen" placeholder="imagen" required >
+        <input type="submit" name="submit" value="Ingresar">
+    </form>
+
+
+</body>
+</html>

@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
+.subTitulo {
+    color: black;
+    padding-top: 10%;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+
+
+.elementoA {
+    background-color: black;
+}
+
+.carrito {
+    display: inline;
+    color: #fff;
+    padding-right: 15px;
+}
+
+.carritoCompra {
+    text-decoration: none;
+}
+
+.tituloDeCarrusel {
+    color: white;
+    font-size: 30px;
+}
+
+
+.headerConteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.container-fluid {
+    font-size: 1rem;
+}
+
+.centrarTarjetas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.productoTarjetas {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 10%;
+
+}
+
+.imagenDetarjeta {
+    width: 85%;
+    margin-left: 18px;
+
+}
+
+.loginbtn{
+    background-color: azure;
+    text-decoration: none;
+    margin-right: 20px ;
+}
+
+.card-title {
+    -webkit-text-stroke: 1px black;
+
+}
+
+.barraPremium {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.btn-primary {
+    background-color: rgb(0, 0, 0) !important;
+
+
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: rgb(0, 0, 0);
+    margin-top: 20%;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-size: 17px;
+
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ig {
+    padding-right: 8px;
+
+}
+
+.contacto {
+    margin-top: 15px;
+}
+
+.redesSociales a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.text {
+    font-size: 10px;
+}
+
+@media (min-width:992px) {
+    .carousel {
+        width: 90%;
+
+    }
+
+    .carruselCentrado {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    div.carousel-inner div img {
+        width: 50%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    /* grilla producto*/
+
+    .productoTarjetas {
+
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        margin-top: 10%;
+
+    }
+
+    .imagenDetarjeta {
+        width: 85%;
+        margin: 0;
+
+    }
+
+    .card-title {
+        -webkit-text-stroke: 1px black;
+
+    }
+
+    .barraPremium {
+        width: 100%;
+
+    }
+
+    .btn-primary {
+        background-color: rgb(0, 0, 0) !important;
+
+
+    }
+
+    .subTitulo {
+        color: black;
+        padding-top: 10%;
+        text-align: center;
+        font-size: 3rem;
+    }
+    .text {
+        font-size: 15px;
+    }
+
+}
